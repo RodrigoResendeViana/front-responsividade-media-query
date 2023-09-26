@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+    border: 1px solid red;
+    background-color: white;
+    padding: 25px;
+}
+
+main{
+    display:flex;
+
+}
+
+body{
+    background-color: blue;
+}
+
+/* Mobile */
+@media screen and (max-width: 480px){
+    body{
+        background-color: green;
+    }
+    main{
+        flex-direction: column;
+    }
+    section img{
+        width: 100%;
+        max-width: 400px;
+    }
+}
+
+
+/*Extra small devices*/
+@media (min-width:481px) and (max-width:767px){
+    body{
+        background-color: orange;
+    }
+}
+
+
+/*Small tablets*/
+@media (min-width:768px) and (max-width:991px){
+    body{
+        background-color: red;
+    }
+}
+
+
+/*tablets e laptops*/
+@media (min-width:992px) and (max-width:1199px){
+    body{
+        background-color: grey;
+    }
+}
+
+/*Desktops*/
+
+@media (min-width:1200px) and (max-width:1919px){
+    body{
+        background-color: aqua;
+    }
+}
+
+/*Extra large screens*/
+@media (min-width:1920px){
+    body{
+        background-color: goldenrod;
+    }
+}
